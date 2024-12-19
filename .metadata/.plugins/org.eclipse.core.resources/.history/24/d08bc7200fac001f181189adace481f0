@@ -1,0 +1,24 @@
+package runner;
+
+import org.junit.runner.RunWith;
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+	
+	@RunWith(Cucumber.class)
+
+	@CucumberOptions
+	(
+
+	features = "Featurefile",
+	glue={"C:\\Users\\Welcome\\eclipse-workspace\\AWSpractice\\src\\test\\java\\Stepdefenition"}
+	
+
+	)
+
+	public class TestRunner
+	 
+	{
+	
+	}
+
+

@@ -1,0 +1,11 @@
+package Stepdefenition;
+
+public class Steps {
+	
+	@Given("user is  on homepage")
+	public void user_is_on_homepage() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+}
